@@ -1,6 +1,6 @@
 # Dockerfile for Ubuntu 12.04 and Oracle Java 7
 FROM ubuntu:14.04
-MAINTAINER Jared Lobberecht <jared@lobberecht.com>
+MAINTAINER John Dorrance <jdorrance@mavendc.com>
 
 RUN apt-get update && apt-get -y upgrade && apt-get -y install software-properties-common && add-apt-repository ppa:webupd8team/java -y && apt-get update
 
